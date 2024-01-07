@@ -175,3 +175,47 @@ main {
   color: var(--primary-clr);
   font-family: inherit;
 }
+
+/* coming-soon */
+.comming-soon {
+  display: flex;
+  gap: 70px;
+}
+.offer {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.offer-title {
+  color: var(--primary-clr);
+
+  font-family: Inter;
+  font-size: 24px;
+
+  font-weight: 600;
+}
+.offer-subt {
+  color: #070211;
+
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.offer-details {
+  color: var(--light-dark-clr);
+
+  font-family: Inter;
+  font-size: 20px;
+
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.image-circle {
+  height: 463;
+
+  border: 15px solid #f00;
+  border-radius: 50%;
+}
