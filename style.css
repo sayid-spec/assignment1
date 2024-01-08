@@ -150,7 +150,9 @@ main {
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  padding: 100px 385px;
+  width: 1320px;
+  padding: 100px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,6 +160,11 @@ main {
   gap: 48px;
   border-radius: 10px;
   margin-bottom: 100px;
+}
+.event {
+  text-align: center;
+  white-space: nowrap;
+  margin-left: 100px;
 }
 .place p {
   color: var(--deep-dark-clr);
@@ -174,6 +181,9 @@ main {
 .place p span {
   color: var(--primary-clr);
   font-family: inherit;
+}
+.place button {
+  margin-right: 0;
 }
 
 /* coming-soon */
@@ -312,7 +322,6 @@ main {
   gap: 90px;
 }
 .images .Gr-mystryBox {
-  opacity: 0.9;
 }
 .sale-dis {
   position: relative;
