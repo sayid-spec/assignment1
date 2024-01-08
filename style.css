@@ -179,6 +179,8 @@ main {
 /* coming-soon */
 .comming-soon {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 70px;
 }
 .offer {
@@ -214,8 +216,55 @@ main {
   line-height: 32px; /* 160% */
 }
 .image-circle {
-  height: 463;
+  width: 450px;
+  height: 450px;
+}
+.outer-circle {
+  width: 450px;
+  height: 450px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   border: 15px solid #f00;
   border-radius: 50%;
+}
+.inner-circle {
+  width: 375px;
+  height: 375px;
+  overflow: hidden;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.year-det {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.year-det p {
+  color: var(--light-dark-clr);
+  font-family: Inter;
+  font-size: 20px;
+  margin-top: 20px;
+
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.year-det h3 {
+  color: #f00;
+  font-family: Inter;
+
+  font-size: 48px;
+
+  font-weight: 700;
+}
+.year-det img {
+  width: 140px;
+
+  display: block;
+  margin: 45px 135px 0px 0px;
 }
